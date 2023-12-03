@@ -8,17 +8,17 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="style.css" rel="stylesheet" type="text/css" media="all">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="slideshow-container">
 
 		<div class="mySlides fade">
-		  <div class="numbertext">1 / 2</div>
 		  <img src="./images/destaque-home.png" style="width:100%">
 		</div>
 	  
 		<div class="mySlides fade">
-		  <div class="numbertext">2 / 2</div>
 		  <img src="./images/destaque-home-2.png" style="width:100%">
 		</div>
 	  
@@ -30,6 +30,7 @@
 	  <div style="text-align:center">
 		<span class="dot" onclick="currentSlide(1)"></span>
 		<span class="dot" onclick="currentSlide(2)"></span>
+		<span class="dot" onclick="currentSlide(3)"></span>
 	  </div>
 <div id="header-wrapper">
 	<div id="header" class="container">
@@ -49,49 +50,43 @@
     <div class="about_section">
       <h1 class="h1_about">About Us Page</h1>
       <p class="p_about">Sed congue, ligula eget pharetra pulvinar, orci neque aliquam elit, in blandit ex ipsum ac felis. Praesent quis augue at dui euismod posuere. Nunc urna dolor, vulputate maximus aliquet nec, pulvinar in tortor. Phasellus neque eros, maximus at odio commodo, consequat tristique enim. Sed nec elit sit amet quam egestas molestie quis at massa. Donec erat sapien, viverra sed lorem sit amet, commodo congue quam. Vivamus iaculis sagittis tortor, a dictum nisl pellentesque sed. Nullam pulvinar nisl sit amet rhoncus pharetra. Sed auctor justo quis risus fermentum fringilla. Phasellus id elit sed turpis pulvinar bibendum.</p>
-    </div>
-    
-    <h2 class="h2_about">Our Team</h2>
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="./images/jane_doe.jpg" alt="Jane" class="img_about">
-          <div class="container_about">
-            <h2>Jane Doe</h2>
-            <p>CEO & Founder</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>jane@email.com</p>
-            <p><button class="button_about">Contact</button></p>
-          </div>
+ 
+
+    <div class="card-group">
+      <div class="card" style="width: 36rem;">
+        <img src="./images/jane_doe.jpg" class="img_about" alt="Jane">
+        <div class="container_about">
+          <h5 class="card-title">Jane Doe</h5>
+          <p class="card-text">CEO & Founder</p>
+          <p class="card-text">Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p class="card-text">jane@email.com</p>
+          <button class="button_about">Contact</button></p>
         </div>
       </div>
     
-      <div class="column">
-        <div class="card">
-          <img src="./images/mike_ross.jpg" alt="Mike" class="img_about">
-          <div class="container_about">
-            <h2>Mike Ross</h2>
-            <p>Art Director</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>mike@email.com</p>
-            <p><button class="button_about">Contact</button></p>
-          </div>
+      <div class="card" style="width: 36rem;">
+        <img src="./images/mike_ross.jpg" class="img_about" alt="Mike">
+        <div class="container_about">
+          <h5 class="card-title">Mike Ross</h5>
+          <p class="card-text">Art Ddirector</p>
+          <p class="card-text">Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p class="card-text">mike@email.com</p>
+          <button class="button_about">Contact</button></p>
         </div>
       </div>
-    
-      <div class="column">
-        <div class="card">
-          <img src="./images/john_doe.jpg" alt="John" class="img_about">
-          <div class="container_about">
-            <h2>John Doe</h2>
-            <p>Designer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>john@email.com</p>
-            <p><button class="button_about">Contact</button></p>
-          </div>
+      
+      <div class="card" style="width: 36rem;">
+        <img src="./images/john_doe.jpg" class="img_about" alt="John">
+        <div class="container_about">
+          <h5 class="card-title">John Doe</h5>
+          <p class="card-text">Designer</p>
+          <p class="card-text">Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p class="card-text">john@email.com</p>
+          <button class="button_about">Contact</button></p>
         </div>
       </div>
     </div>
+  </div>
     <div id="copyright">
       <div class="title">
        <h2>Book the Books</h2>
